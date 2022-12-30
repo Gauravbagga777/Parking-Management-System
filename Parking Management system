@@ -1,13 +1,13 @@
 #include <stdio.h>
 
-void printreceipt();
+void printreceipt(); // functions declaration
 void addvehicle();
 void searchvehicle();
 int exitfunc();
 void displaystats();
 void vehicleout();
 
-int bus_slots = 5, car_slots = 10, bike_slots = 20, choose, z = 1;
+int bus_slots = 5, car_slots = 10, bike_slots = 20, choose, z = 1; // assignment of variables
 int vehiclenumber[40], earning = 0;
 int i = 0;
 
